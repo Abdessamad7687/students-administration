@@ -1,18 +1,18 @@
 @extends('layout.layout')
 
 @section('content')
-
-<div class="card" style="width: 18rem;">
+    <div class="container p-2 mt-4">
+        <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Full-Name:  </h5>
+                    <p class="card-title text-left">Full-Name: <strong>Name</strong></p>
                     <hr>
-                    <p class="card-subtitle mb-2">Mathematics:  </p>
-                    <p class="card-text">Physics:  </p>
-                    <p class="card-text">Science:  </p>
-                    <p class="card-text">English:  </p>
-                    <p class="card-text">French: </p>
-                    <p class="card-text">Geographic:  </p>
+                    <p class="card-text ">Mathematics: <strong></strong> </p>
+                    <p class="card-text">Physics: <strong></strong> </p>
+                    <p class="card-text">Science: <strong></strong> </p>
+                    <p class="card-text">English: <strong></strong> </p>
+                    <p class="card-text">French: <strong></strong> </p>
                 </div>
-            </div>
+        </div>
+    </div>
 
 @endsection

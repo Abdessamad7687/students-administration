@@ -9,6 +9,7 @@ use App\Models\Student;
 class StudentController extends Controller
 {
     public function index() {
-        
+        $Students = Student::all();
+        return view('home', compact('Students'));
     }
 }
