@@ -12,4 +12,10 @@ class StudentController extends Controller
         $Students = Student::all();
         return view('home', compact('Students'));
     }
+
+
+    public function table() {
+        $Students = Student::all();
+        return view('table', compact('Students'));
+    }
 }
