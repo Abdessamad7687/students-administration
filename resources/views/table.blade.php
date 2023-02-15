@@ -19,14 +19,14 @@
 
   @foreach($Students as $Student)
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>Mark</td>
+      <th scope="row">{{ $Student['id'] }}</th>
+      <td>{{ $Student['name'] }}</td>
+      <td>{{ $Student['mathematics'] }}</td>
+      <td>{{ $Student['physics'] }}</td>
+      <td>{{ $Student['science'] }}</td>
+      <td>{{ $Student['english'] }}</td>
+      <td>{{ $Student['french'] }}</td>
+      <td>Actions</td>
     </tr>
     @endforeach
     
